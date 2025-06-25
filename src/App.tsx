@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Gift, Cake } from 'lucide-react';
 import './App.css';
 import Calendar from './components/Calender';
-import TodayCelebrations from './components/TodayCelebration';
+import TodayCelebrations from './components/TodayCelebation';
 import EmployeeDetails from './components/EmployeeDetails';
-import AddEmployeeForm from './components/AddEmployeeForm';
+import AddEmployeeForm from './components/AddEmpolyeeForm';
 import { 
   fetchExcelFile, 
   filterBirthdaysByDate, 
