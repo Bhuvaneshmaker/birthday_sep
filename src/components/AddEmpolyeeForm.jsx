@@ -23,6 +23,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
           <label htmlFor="id" className="block text-sm font-medium text-gray-700">ID</label>
           <input
             type="text"
+            placeholder="Employee ID"
             id="id"
             value={addEmployee.id}
             onChange={(e) => setAddEmployee({ ...addEmployee, id: e.target.value })}
@@ -35,6 +36,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
           <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
           <input
             type="text"
+            placeholder="Employee Name"
             id="name"
             value={addEmployee.name}
             onChange={(e) => setAddEmployee({ ...addEmployee, name: e.target.value })}
@@ -47,6 +49,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
           <label htmlFor="birthday" className="block text-sm font-medium text-gray-700">Birthday</label>
           <input
             type="date"
+             placeholder="Employee Birthday"
             id="birthday"
             value={addEmployee.birthday}
             onChange={(e) => setAddEmployee({ ...addEmployee, birthday: e.target.value })}
@@ -59,6 +62,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
           <label htmlFor="joinDate" className="block text-sm font-medium text-gray-700">Join Date</label>
           <input
             type="date"
+             placeholder="Joining date"
             id="joinDate"
             value={addEmployee.joinDate}
             onChange={(e) => setAddEmployee({ ...addEmployee, joinDate: e.target.value })}
