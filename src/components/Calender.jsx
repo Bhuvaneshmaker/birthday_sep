@@ -53,7 +53,7 @@ const Calendar = ({
 
   return (
     <div className="col-lg-8 mb-6">
-      <div className="bg-white rounded-lg shadow-md p-6">
+      <div className="bg-black rounded-lg shadow-md p-6">
         <div className="d-flex justify-between items-center mb-4">
           <button className="btn btn-outline-primary" onClick={() => changeMonth(-1)}>
             ← Previous
