@@ -42,8 +42,8 @@ const Calendar = ({
           }
         >
           {day}
-          {hasBday && <div className="birthday-indicator" style={{ fontSize: '30px' }}>🎂</div>}
-          {hasJoin && <div className="join-indicator" style={{ fontSize: '30px' }}>⭐</div>}
+          {hasBday && <div className="birthday-indicator" style={{ fontSize: '20px' }}>🎂</div>}
+          {hasJoin && <div className="join-indicator" style={{ fontSize: '20px' }}>⭐</div>}
         </div>
       );
     }
