@@ -4,7 +4,7 @@ import './App.css';
 import Calendar from './components/Calender';
 import TodayCelebrations from './components/TodayCelebation';
 import EmployeeDetails from './components/EmployeeDetails';
-import AddEmployeeForm from './components/AddEmpolyeeForm';
+//import AddEmployeeForm from './components/AddEmpolyeeForm';
 import { 
   fetchExcelFile, 
   filterBirthdaysByDate, 
@@ -105,13 +105,13 @@ const EmployeeBirthdayApp = () => {
         />
 
         {/* Add Employee Form */}
-        <AddEmployeeForm 
+        {/*  <AddEmployeeForm 
           addEmployee={addEmployee}
           setAddEmployee={setAddEmployee}
           employees={employees}
           setEmployees={setEmployees}
           onEmployeeAdded={handleEmployeeAdded}
-        />
+        /> */}
 
       </div>
     </div>
