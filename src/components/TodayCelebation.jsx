@@ -8,7 +8,7 @@ const TodayCelebrations = ({ todaysBirthdays, todayJoin }) => {
       {/* Today's Birthdays */}
       {todaysBirthdays.length > 0 && (
         <div className='today'>
-          <div className="bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg shadow-lg p-6 mb-6">
+          <div className="bg-gradient-to-r from-green-500 to-orange-600 text-white rounded-lg shadow-lg p-6 mb-6">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
               <Star className="text-yellow-300" />
               🎉 Today Birthday Celebrating Person! 🎉
