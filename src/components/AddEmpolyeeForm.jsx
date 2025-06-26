@@ -22,7 +22,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
         <div className="mb-4">
           <label htmlFor="id" className="block text-sm font-medium text-gray-700">Employee ID</label>
           <input
-            type="text"
+            type="number"
             placeholder="Employee ID"
             id="id"
             value={addEmployee.id}
