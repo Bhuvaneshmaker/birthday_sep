@@ -17,7 +17,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
 
   return (
     <div className='information'>
-      <h3 className='text-center-xl text-black'>ADD INFORMATION</h3>
+      <h3 className='text-center-xl font-bold text-black'>ADD INFORMATION</h3>
       <form onSubmit={handleAddEmployee} className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md mt-6">
         <div className="mb-4">
           <label htmlFor="id" className="block text-sm font-medium text-gray-700">Employee ID</label>
