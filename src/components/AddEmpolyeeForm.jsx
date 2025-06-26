@@ -20,7 +20,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
       <h3 className='text-center-xl text-black'>ADD INFORMATION</h3>
       <form onSubmit={handleAddEmployee} className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md mt-6">
         <div className="mb-4">
-          <label htmlFor="id" className="block text-sm font-medium text-gray-700">ID</label>
+          <label htmlFor="id" className="block text-sm font-medium text-gray-700">Employee ID</label>
           <input
             type="text"
             placeholder="Employee ID"
@@ -33,7 +33,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
         </div>
 
         <div className="mb-4">
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+          <label htmlFor="name" className="block text-sm font-medium text-gray-700">Employee Name</label>
           <input
             type="text"
             placeholder="Employee Name"
@@ -46,7 +46,7 @@ const AddEmployeeForm = ({ addEmployee, setAddEmployee, employees, setEmployees,
         </div>
 
         <div className="mb-4">
-          <label htmlFor="birthday" className="block text-sm font-medium text-gray-700">Birthday</label>
+          <label htmlFor="birthday" className="block text-sm font-medium text-gray-700">Date Of Birthday</label>
           <input
             type="date"
              placeholder="Employee Birthday"
