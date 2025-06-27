@@ -105,13 +105,13 @@ const EmployeeBirthdayApp = () => {
         />
 
         {/* Add Employee Form */}
-        {/*  <AddEmployeeForm 
+         <AddEmployeeForm 
           addEmployee={addEmployee}
           setAddEmployee={setAddEmployee}
           employees={employees}
           setEmployees={setEmployees}
           onEmployeeAdded={handleEmployeeAdded}
-        /> */}
+        /> 
 
       </div>
     </div>
