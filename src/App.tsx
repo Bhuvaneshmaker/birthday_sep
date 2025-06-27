@@ -4,7 +4,7 @@ import './App.css';
 import Calendar from './components/Calender';
 import TodayCelebrations from './components/TodayCelebation';
 import EmployeeDetails from './components/EmployeeDetails';
-//import AddEmployeeForm from './components/AddEmpolyeeForm';
+import AddEmployeeForm from './components/AddEmpolyeeForm';
 import { 
   fetchExcelFile, 
   filterBirthdaysByDate, 
